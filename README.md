@@ -3,8 +3,7 @@
 C-runner is a tool for building and runing C projects\
 As of now it is only available on Windows with MinGW
 
-To run a project you need to use `runc: Run Project` command from the command palette (F1 or Ctrl+Shift+P and type `runc`)\
-_Make sure to have MinGW installed and gcc added to system path_
+_It requires to have MinGW installed and gcc added to system path!_
 
 ## Features
 
@@ -16,10 +15,24 @@ _Make sure to have MinGW installed and gcc added to system path_
 - Windows
 - MinGW (gcc compiler added to path)
 
+## Installation and usage
+
+#### Installation
+See release notes\
+### Usage (minimal working example)
+- Install the extension
+- Open a new folder
+- Create a main.c file with an example C program
+- Use `runc: Run Project` command from the command palette\
+	(Press F1 or Ctrl+Shift+P and type `runc`)
+- _c-runner.json_ (config) will be created in the workspace directory
+- Output will be routed to the terminal window
+
+
 ## Config
 
-When first using c-runner, it will create a c-runner.json file in the workspace directory\
-An example c-runner.json file:
+When first using c-runner, it will create a _c-runner.json_ file in the workspace directory\
+An example _c-runner.json_ file:
 ```
 {
 	"EntryFile" : "main.c",
