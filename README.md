@@ -1,6 +1,6 @@
 # C-runner
 
-C-runner is a tool for building and runing C projects (along with including libraries and folders)
+C-runner is a tool for building and runing C projects (along with including libraries and folders)\
 As of now it is only available on windows with MinGW (gcc)
 
 To run a project you need to use `runc: Run Project` command from the command palette (F1 or Ctrl+Shift+P and type `runc`)
@@ -15,10 +15,9 @@ To run a project you need to use `runc: Run Project` command from the command pa
 - Windows
 - MinGW (gcc compiler added to path)
 
-## Build config
+## Config
 
-When first using c-runner, it will create a c-runner.json file in the workspace directory
-
+When first using c-runner, it will create a c-runner.json file in the workspace directory\
 An example c-runner.json file:
 ```
 {
