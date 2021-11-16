@@ -18,10 +18,10 @@ _It requires to have MinGW installed and gcc added to system path!_
 ## Installation and usage
 
 #### Installation
-See release notes
+  See release notes
 #### Usage (minimal working example)
 - Install the extension
-- Open a new folder
+- Open a new folder in VSCode
 - Create a main.c file with an example C program
 - Use `runc: Run Project` command from the command palette\
 	(Press F1 or Ctrl+Shift+P and type `runc`)
