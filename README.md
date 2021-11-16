@@ -18,8 +18,8 @@ _It requires to have MinGW installed and gcc added to system path!_
 ## Installation and usage
 
 #### Installation
-See release notes\
-### Usage (minimal working example)
+See release notes
+#### Usage (minimal working example)
 - Install the extension
 - Open a new folder
 - Create a main.c file with an example C program
